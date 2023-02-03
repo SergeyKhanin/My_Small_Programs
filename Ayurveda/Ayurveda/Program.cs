@@ -1,6 +1,6 @@
 ﻿const int maxTextLength = 20;
-const int loadingTime = 3;
-const int printTime = 30;
+const int loadingTime = 1;
+const int printTime = 10;
 const int endTime = 300;
 
 string dataV;
@@ -88,6 +88,7 @@ void Answer()
     PrintTypewriter("Total sum is: ", ConsoleColor.Black, ConsoleColor.White);
     var total = Convert.ToString(summaryTotal);
     PrintTypewriter(total, ConsoleColor.Gray, ConsoleColor.Black);
+    SaveToFile(name, answerV, answerP, answerK, dataV, dataP, dataK);
 }
 
 void PrintTypewriter(string text, ConsoleColor backgroundColor, ConsoleColor foregroundColor)
@@ -163,6 +164,23 @@ bool DataCheck(string data)
         result = false;
         return result;
     }
+}
+
+void SaveToFile(string n, string aV, string aP, string aK, string dV, string dP, string dK)
+{
+    File.WriteAllLines("Ayurveda", new[]
+    {
+        "Name is: " + n,
+        String.Empty,
+        "Vata dosha is: " + aV,
+        "Pitta dosha is: " + aP,
+        "Kapha dosha is: " + aK,
+        String.Empty,
+        "Answers: ",
+        dV,
+        dP,
+        dK
+    });
 }
 
 void CloseMassage()
