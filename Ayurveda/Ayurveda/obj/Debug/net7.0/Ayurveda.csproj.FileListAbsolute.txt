@@ -1,0 +1,15 @@
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\bin\Debug\net7.0\Ayurveda.exe
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\bin\Debug\net7.0\Ayurveda.deps.json
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\bin\Debug\net7.0\Ayurveda.runtimeconfig.json
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\bin\Debug\net7.0\Ayurveda.dll
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\bin\Debug\net7.0\Ayurveda.pdb
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\obj\Debug\net7.0\Ayurveda.csproj.AssemblyReference.cache
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\obj\Debug\net7.0\Ayurveda.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\obj\Debug\net7.0\Ayurveda.AssemblyInfoInputs.cache
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\obj\Debug\net7.0\Ayurveda.AssemblyInfo.cs
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\obj\Debug\net7.0\Ayurveda.csproj.CoreCompileInputs.cache
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\obj\Debug\net7.0\Ayurveda.dll
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\obj\Debug\net7.0\refint\Ayurveda.dll
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\obj\Debug\net7.0\Ayurveda.pdb
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\obj\Debug\net7.0\Ayurveda.genruntimeconfig.cache
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\obj\Debug\net7.0\ref\Ayurveda.dll

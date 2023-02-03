@@ -1,0 +1,5 @@
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\bin\Release\net7.0\publish\Ayurveda.exe
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\bin\Release\net7.0\publish\Ayurveda.dll
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\bin\Release\net7.0\publish\Ayurveda.deps.json
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\bin\Release\net7.0\publish\Ayurveda.runtimeconfig.json
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\bin\Release\net7.0\publish\Ayurveda.pdb
