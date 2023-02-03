@@ -168,7 +168,7 @@ bool DataCheck(string data)
 
 void SaveToFile(string n, string aV, string aP, string aK, string dV, string dP, string dK)
 {
-    File.WriteAllLines("Ayurveda", new[]
+    File.WriteAllLines(name + "_Ayurveda_Test.txt", new[]
     {
         "Name is: " + n,
         String.Empty,
