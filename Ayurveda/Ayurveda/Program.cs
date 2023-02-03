@@ -1,4 +1,4 @@
-﻿var folderPath = @"D:\Git\My_Small_Programs\Ayurveda\Ayurveda\tests\";
+﻿const string folderPath = @"D:\Git\My_Small_Programs\Ayurveda\Ayurveda\tests\";
 
 const int maxTextLength = 20;
 const int loadingTime = 1;
@@ -9,7 +9,6 @@ string dataV;
 string dataP;
 string dataK;
 
-const string name = "Friend";
 const string introduction = "\nAyurveda, a natural system of medicine, originated in India more than 3,000 years ago." +
                             "\nThe term Ayurveda is derived from the Sanskrit words ayur (life) and veda (science or knowledge)." +
                             "\nThus, Ayurveda translates to knowledge of life." +
@@ -24,12 +23,18 @@ const string instructions = "\nYou can only enter whole single digits." +
 while (true)
 {
     Console.Clear();
+    PrintTypewriter("Hello, what is your name? ", ConsoleColor.Black, ConsoleColor.White);
+    PrintTypewriter("Enter you name: ", ConsoleColor.Black, ConsoleColor.White);
+    Console.ForegroundColor = ConsoleColor.Green;
+    var name = Console.ReadLine();
+
+    Console.Clear();
     Console.ForegroundColor = ConsoleColor.DarkGray;
     Console.WriteLine(introduction);
     Console.ForegroundColor = ConsoleColor.Black;
     Console.WriteLine();
-    PrintTypewriter("Hello ", ConsoleColor.Black, ConsoleColor.White);
-    PrintTypewriter(name, ConsoleColor.Black, ConsoleColor.Green);
+    PrintTypewriter("Nice to meet you ", ConsoleColor.Black, ConsoleColor.White);
+    PrintTypewriter(name ??= "Friend", ConsoleColor.Black, ConsoleColor.Green);
     PrintTypewriter(", this is Ayurveda test!", ConsoleColor.Black, ConsoleColor.White);
     Console.WriteLine();
     Console.WriteLine();
@@ -54,11 +59,11 @@ while (true)
     dataP = InputData("Enter P: ");
     dataK = InputData("Enter K: ");
 
-    Answer();
+    Answer(name);
     CloseMassage();
 }
 
-void Answer()
+void Answer(string name)
 {
     var answerV = Convert.ToString(Summary(dataV));
     var answerP = Convert.ToString(Summary(dataP));
@@ -170,7 +175,7 @@ bool DataCheck(string data)
 
 void SaveToFile(string n, string aV, string aP, string aK, string dV, string dP, string dK)
 {
-    File.WriteAllLines(folderPath + name + "_Ayurveda_Test.txt", new[]
+    File.WriteAllLines(folderPath + n + "_Ayurveda_Test.txt", new[]
     {
         "Name is: " + n,
         String.Empty,
