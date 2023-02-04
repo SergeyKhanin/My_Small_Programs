@@ -24,13 +24,18 @@ while (true)
     Console.ForegroundColor = ConsoleColor.Green;
     var name = Console.ReadLine();
 
+    if (name == String.Empty)
+    {
+        name = "Unidentified";
+    }
+    
     Console.Clear();
     Console.ForegroundColor = ConsoleColor.DarkGray;
     Console.WriteLine(introduction);
     Console.ForegroundColor = ConsoleColor.Black;
     Console.WriteLine();
     PrintTypewriter("Nice to meet you ", ConsoleColor.Black, ConsoleColor.White);
-    PrintTypewriter(name ??= "Friend", ConsoleColor.Black, ConsoleColor.Green);
+    PrintTypewriter(name ??= "Unidentified", ConsoleColor.Black, ConsoleColor.Green);
     PrintTypewriter(", this is Ayurveda test!", ConsoleColor.Black, ConsoleColor.White);
     Console.WriteLine();
     Console.WriteLine();
