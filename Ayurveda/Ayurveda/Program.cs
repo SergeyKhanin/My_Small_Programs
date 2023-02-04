@@ -76,21 +76,9 @@ void Answer(string name, string dataV, string dataP, string dataK)
     Console.Clear();
     PrintTypewriter("Sums of your answers is:", ConsoleColor.Black, ConsoleColor.White);
     Console.WriteLine();
-    Console.WriteLine();
-    PrintTypewriter(dataV, ConsoleColor.White, ConsoleColor.Black);
-    PrintTypewriter(" V", ConsoleColor.Cyan, ConsoleColor.Black);
-    PrintTypewriter(answerV, ConsoleColor.Cyan, ConsoleColor.Black);
-    PrintTypewriter(" ", ConsoleColor.Cyan, ConsoleColor.Black);
-    Console.WriteLine();
-    PrintTypewriter(dataP, ConsoleColor.White, ConsoleColor.Black);
-    PrintTypewriter(" P", ConsoleColor.DarkCyan, ConsoleColor.Black);
-    PrintTypewriter(answerP, ConsoleColor.DarkCyan, ConsoleColor.Black);
-    PrintTypewriter(" ", ConsoleColor.DarkCyan, ConsoleColor.Black);
-    Console.WriteLine();
-    PrintTypewriter(dataK, ConsoleColor.White, ConsoleColor.Black);
-    PrintTypewriter(" K", ConsoleColor.DarkMagenta, ConsoleColor.Black);
-    PrintTypewriter(answerK, ConsoleColor.DarkMagenta, ConsoleColor.Black);
-    PrintTypewriter(" ", ConsoleColor.DarkMagenta, ConsoleColor.Black);
+    PrintLetter(dataV, answerV, " V", ConsoleColor.Cyan);
+    PrintLetter(dataP, answerP, " P", ConsoleColor.DarkCyan);
+    PrintLetter(dataK, answerK, " K", ConsoleColor.DarkMagenta);
     Console.WriteLine();
     Console.WriteLine();
     PrintTypewriter("Total sum is: ", ConsoleColor.Black, ConsoleColor.White);
@@ -191,6 +179,15 @@ void SaveToFile(string name, string answerV, string answerP, string answerK, str
     });
 }
 
+void PrintLetter(string data, string answer, string letter, ConsoleColor color)
+{
+    Console.WriteLine();
+    PrintTypewriter(data, ConsoleColor.White, ConsoleColor.Black);
+    PrintTypewriter(letter, color, ConsoleColor.Black);
+    PrintTypewriter(answer, color, ConsoleColor.Black);
+    PrintTypewriter(" ", color, ConsoleColor.Black);
+}
+
 void CloseMassage()
 {
     PrintTypewriter("    Press \"Enter\" to restart program!", ConsoleColor.Black, ConsoleColor.DarkYellow);
@@ -198,7 +195,6 @@ void CloseMassage()
 }
 
 string InputData(string massage)
-
 
 {
     while (true)
