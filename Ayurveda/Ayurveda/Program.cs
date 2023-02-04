@@ -5,10 +5,6 @@ const int loadingTime = 1;
 const int printTime = 10;
 const int endTime = 300;
 
-string dataV;
-string dataP;
-string dataK;
-
 const string introduction = "\nAyurveda, a natural system of medicine, originated in India more than 3,000 years ago." +
                             "\nThe term Ayurveda is derived from the Sanskrit words ayur (life) and veda (science or knowledge)." +
                             "\nThus, Ayurveda translates to knowledge of life." +
@@ -55,15 +51,15 @@ while (true)
     PrintTypewriter("Press \"Enter\" to continue!", ConsoleColor.Black, ConsoleColor.DarkYellow);
     Console.ReadLine();
 
-    dataV = InputData("Enter V: ");
-    dataP = InputData("Enter P: ");
-    dataK = InputData("Enter K: ");
+    var dataV = InputData("Enter V: ");
+    var dataP = InputData("Enter P: ");
+    var dataK = InputData("Enter K: ");
 
-    Answer(name);
+    Answer(name, dataV, dataP, dataK);
     CloseMassage();
 }
 
-void Answer(string name)
+void Answer(string name, string dataV, string dataP, string dataK)
 {
     var answerV = Convert.ToString(Summary(dataV));
     var answerP = Convert.ToString(Summary(dataP));
@@ -173,20 +169,20 @@ bool DataCheck(string data)
     }
 }
 
-void SaveToFile(string n, string aV, string aP, string aK, string dV, string dP, string dK)
+void SaveToFile(string name, string answerV, string answerP, string answerK, string dataV, string dataP, string dataK)
 {
-    File.WriteAllLines(folderPath + n + "_Ayurveda_Test.txt", new[]
+    File.WriteAllLines(folderPath + name + "_Ayurveda_Test.txt", new[]
     {
-        "Name is: " + n,
+        "Name is: " + name,
         String.Empty,
-        "Vata dosha is: " + aV,
-        "Pitta dosha is: " + aP,
-        "Kapha dosha is: " + aK,
+        "Vata dosha is: " + answerV,
+        "Pitta dosha is: " + answerP,
+        "Kapha dosha is: " + answerK,
         String.Empty,
         "Answers: ",
-        dV,
-        dP,
-        dK
+        dataV,
+        dataP,
+        dataK
     });
 }
 
