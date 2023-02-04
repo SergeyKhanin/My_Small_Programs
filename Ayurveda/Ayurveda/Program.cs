@@ -2,7 +2,7 @@
 
 const int maxTextLength = 20;
 const int loadingTime = 1;
-const int printTime = 10;
+const int printTime = 20;
 const int endTime = 300;
 
 const string introduction = "\nAyurveda, a natural system of medicine, originated in India more than 3,000 years ago." +
@@ -28,7 +28,7 @@ while (true)
     {
         name = "Unidentified";
     }
-    
+
     Console.Clear();
     Console.ForegroundColor = ConsoleColor.DarkGray;
     Console.WriteLine(introduction);
