@@ -1,0 +1,12 @@
+D:\Git\My_Small_Programs\Ayurveda\Solver\bin\Debug\net7.0\Solver.deps.json
+D:\Git\My_Small_Programs\Ayurveda\Solver\bin\Debug\net7.0\Solver.dll
+D:\Git\My_Small_Programs\Ayurveda\Solver\bin\Debug\net7.0\Solver.pdb
+D:\Git\My_Small_Programs\Ayurveda\Solver\obj\Debug\net7.0\Solver.csproj.AssemblyReference.cache
+D:\Git\My_Small_Programs\Ayurveda\Solver\obj\Debug\net7.0\Solver.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\My_Small_Programs\Ayurveda\Solver\obj\Debug\net7.0\Solver.AssemblyInfoInputs.cache
+D:\Git\My_Small_Programs\Ayurveda\Solver\obj\Debug\net7.0\Solver.AssemblyInfo.cs
+D:\Git\My_Small_Programs\Ayurveda\Solver\obj\Debug\net7.0\Solver.csproj.CoreCompileInputs.cache
+D:\Git\My_Small_Programs\Ayurveda\Solver\obj\Debug\net7.0\Solver.dll
+D:\Git\My_Small_Programs\Ayurveda\Solver\obj\Debug\net7.0\refint\Solver.dll
+D:\Git\My_Small_Programs\Ayurveda\Solver\obj\Debug\net7.0\Solver.pdb
+D:\Git\My_Small_Programs\Ayurveda\Solver\obj\Debug\net7.0\ref\Solver.dll

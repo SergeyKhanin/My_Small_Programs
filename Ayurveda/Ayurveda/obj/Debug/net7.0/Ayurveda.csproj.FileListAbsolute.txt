@@ -13,3 +13,6 @@ D:\Git\My_Small_Programs\Ayurveda\Ayurveda\obj\Debug\net7.0\refint\Ayurveda.dll
 D:\Git\My_Small_Programs\Ayurveda\Ayurveda\obj\Debug\net7.0\Ayurveda.pdb
 D:\Git\My_Small_Programs\Ayurveda\Ayurveda\obj\Debug\net7.0\Ayurveda.genruntimeconfig.cache
 D:\Git\My_Small_Programs\Ayurveda\Ayurveda\obj\Debug\net7.0\ref\Ayurveda.dll
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\bin\Debug\net7.0\Solver.dll
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\bin\Debug\net7.0\Solver.pdb
+D:\Git\My_Small_Programs\Ayurveda\Ayurveda\obj\Debug\net7.0\Ayurveda.csproj.CopyComplete

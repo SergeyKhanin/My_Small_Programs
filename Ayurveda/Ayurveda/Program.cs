@@ -1,4 +1,6 @@
-﻿const string folderPath = @"D:\Git\My_Small_Programs\Ayurveda\Ayurveda\tests\";
+﻿using Solver;
+
+const string folderPath = @"D:\Git\My_Small_Programs\Ayurveda\Ayurveda\tests\";
 
 const int maxTextLength = 20;
 const int loadingTime = 1;
@@ -66,10 +68,11 @@ while (true)
 
 void Answer(string name, string dataV, string dataP, string dataK)
 {
-    var answerV = Convert.ToString(Summary(dataV));
-    var answerP = Convert.ToString(Summary(dataP));
-    var answerK = Convert.ToString(Summary(dataK));
-    var summaryTotal = int.Parse(answerV) + int.Parse(answerP) + int.Parse(answerK);
+    var answerV = Convert.ToString(CharSummary(dataV));
+    var answerP = Convert.ToString(CharSummary(dataP));
+    var answerK = Convert.ToString(CharSummary(dataK));
+
+    var summaryTotal = Summary.Solve(int.Parse(answerV), int.Parse(answerP), int.Parse(answerK));
 
     Loading();
     Console.WriteLine();
@@ -100,7 +103,7 @@ void PrintTypewriter(string text, ConsoleColor backgroundColor, ConsoleColor for
     }
 }
 
-int Summary(string data)
+int CharSummary(string data)
 {
     var summary = 0;
     foreach (var items in data)
