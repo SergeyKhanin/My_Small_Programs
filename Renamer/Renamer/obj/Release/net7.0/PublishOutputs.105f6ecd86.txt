@@ -1,0 +1,5 @@
+D:\Git\My_Small_Programs\Renamer\Renamer\bin\Release\net7.0\publish\Renamer.exe
+D:\Git\My_Small_Programs\Renamer\Renamer\bin\Release\net7.0\publish\Renamer.dll
+D:\Git\My_Small_Programs\Renamer\Renamer\bin\Release\net7.0\publish\Renamer.deps.json
+D:\Git\My_Small_Programs\Renamer\Renamer\bin\Release\net7.0\publish\Renamer.runtimeconfig.json
+D:\Git\My_Small_Programs\Renamer\Renamer\bin\Release\net7.0\publish\Renamer.pdb

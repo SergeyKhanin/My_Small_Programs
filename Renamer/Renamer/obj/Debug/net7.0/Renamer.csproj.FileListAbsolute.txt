@@ -1,0 +1,15 @@
+D:\Git\My_Small_Programs\Renamer\Renamer\bin\Debug\net7.0\Renamer.exe
+D:\Git\My_Small_Programs\Renamer\Renamer\bin\Debug\net7.0\Renamer.deps.json
+D:\Git\My_Small_Programs\Renamer\Renamer\bin\Debug\net7.0\Renamer.runtimeconfig.json
+D:\Git\My_Small_Programs\Renamer\Renamer\bin\Debug\net7.0\Renamer.dll
+D:\Git\My_Small_Programs\Renamer\Renamer\bin\Debug\net7.0\Renamer.pdb
+D:\Git\My_Small_Programs\Renamer\Renamer\obj\Debug\net7.0\Renamer.csproj.AssemblyReference.cache
+D:\Git\My_Small_Programs\Renamer\Renamer\obj\Debug\net7.0\Renamer.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\My_Small_Programs\Renamer\Renamer\obj\Debug\net7.0\Renamer.AssemblyInfoInputs.cache
+D:\Git\My_Small_Programs\Renamer\Renamer\obj\Debug\net7.0\Renamer.AssemblyInfo.cs
+D:\Git\My_Small_Programs\Renamer\Renamer\obj\Debug\net7.0\Renamer.csproj.CoreCompileInputs.cache
+D:\Git\My_Small_Programs\Renamer\Renamer\obj\Debug\net7.0\Renamer.dll
+D:\Git\My_Small_Programs\Renamer\Renamer\obj\Debug\net7.0\refint\Renamer.dll
+D:\Git\My_Small_Programs\Renamer\Renamer\obj\Debug\net7.0\Renamer.pdb
+D:\Git\My_Small_Programs\Renamer\Renamer\obj\Debug\net7.0\Renamer.genruntimeconfig.cache
+D:\Git\My_Small_Programs\Renamer\Renamer\obj\Debug\net7.0\ref\Renamer.dll

@@ -1,3 +1,12 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using Renamer;
 
-Console.WriteLine("Hello, World!");
+var directory = Console.ReadLine();
+var prefix = Console.ReadLine();
+
+ChangeName.AddPrefix(directory, prefix);
+
+
+
+
+
+

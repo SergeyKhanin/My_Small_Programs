@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renamer", "Renamer\Renamer.csproj", "{37EF756B-6F51-4D65-AAF6-727B88309389}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Renamer.Test", "Renamer.Test\Renamer.Test.csproj", "{12E69AB4-8F9D-472D-ACF8-1C8EB3632C67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{37EF756B-6F51-4D65-AAF6-727B88309389}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37EF756B-6F51-4D65-AAF6-727B88309389}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37EF756B-6F51-4D65-AAF6-727B88309389}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12E69AB4-8F9D-472D-ACF8-1C8EB3632C67}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12E69AB4-8F9D-472D-ACF8-1C8EB3632C67}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12E69AB4-8F9D-472D-ACF8-1C8EB3632C67}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12E69AB4-8F9D-472D-ACF8-1C8EB3632C67}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
