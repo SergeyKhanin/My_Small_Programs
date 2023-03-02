@@ -1,0 +1,15 @@
+D:\Git\My_Small_Programs\PickRandomCards\PickRandomCards\bin\Release\net7.0\PickRandomCards.exe
+D:\Git\My_Small_Programs\PickRandomCards\PickRandomCards\bin\Release\net7.0\PickRandomCards.deps.json
+D:\Git\My_Small_Programs\PickRandomCards\PickRandomCards\bin\Release\net7.0\PickRandomCards.runtimeconfig.json
+D:\Git\My_Small_Programs\PickRandomCards\PickRandomCards\bin\Release\net7.0\PickRandomCards.dll
+D:\Git\My_Small_Programs\PickRandomCards\PickRandomCards\bin\Release\net7.0\PickRandomCards.pdb
+D:\Git\My_Small_Programs\PickRandomCards\PickRandomCards\obj\Release\net7.0\PickRandomCards.csproj.AssemblyReference.cache
+D:\Git\My_Small_Programs\PickRandomCards\PickRandomCards\obj\Release\net7.0\PickRandomCards.GeneratedMSBuildEditorConfig.editorconfig
+D:\Git\My_Small_Programs\PickRandomCards\PickRandomCards\obj\Release\net7.0\PickRandomCards.AssemblyInfoInputs.cache
+D:\Git\My_Small_Programs\PickRandomCards\PickRandomCards\obj\Release\net7.0\PickRandomCards.AssemblyInfo.cs
+D:\Git\My_Small_Programs\PickRandomCards\PickRandomCards\obj\Release\net7.0\PickRandomCards.csproj.CoreCompileInputs.cache
+D:\Git\My_Small_Programs\PickRandomCards\PickRandomCards\obj\Release\net7.0\PickRandomCards.dll
+D:\Git\My_Small_Programs\PickRandomCards\PickRandomCards\obj\Release\net7.0\refint\PickRandomCards.dll
+D:\Git\My_Small_Programs\PickRandomCards\PickRandomCards\obj\Release\net7.0\PickRandomCards.pdb
+D:\Git\My_Small_Programs\PickRandomCards\PickRandomCards\obj\Release\net7.0\PickRandomCards.genruntimeconfig.cache
+D:\Git\My_Small_Programs\PickRandomCards\PickRandomCards\obj\Release\net7.0\ref\PickRandomCards.dll
